@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(246, 239, 248);
+}
+
+nav{
+    
+  display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+.bankContainer{
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    border-radius: 15px 0px 15px 0px;
+    background-color: rgb(159, 43, 226);
+    padding: 6px;
+}
+
+.bankContainer p {
+    color:rgb(246, 239, 248);
+    font-family: 'Maven Pro';
+    font-size: 23px;
+    font-weight: 650;
+}
+
+.tokenGenContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.tokenGenContainer p{
+    color: rgb(159, 43, 226);
+    font-family:'Source Sans Pro';
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.tokenContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.tokenContainer p{
+    color: rgb(38, 2, 53);
+    font-family: 'Source Sans Pro';
+    font-size: 28px;
+    font-weight: 700;
+    margin: 10px 10px 10px 10px;
+}
+
+.progressBarContainer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
